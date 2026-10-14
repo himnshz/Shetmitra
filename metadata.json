@@ -1,0 +1,10 @@
+{
+  "name": "Remix ShetMitra AI - Rural Intelligence Platform",
+  "description": "AI-powered voice-first rural intelligence platform for farmers in Marathi \u0026 Hindi: 7-day mandi price forecasting, proactive climate \u0026 scheme alerts, legal awareness, and Voice MRV carbon tracking.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

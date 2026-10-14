@@ -1,0 +1,105 @@
+{
+  "project": "ShetMitra AI - Rural Intelligence Platform",
+  "version": "1.0.0",
+  "sampleFarmers": [
+    {
+      "id": "MH-JAL-84920",
+      "name": "भाऊराव यशवंत पाटील (Bhaurao Patil)",
+      "phone": "+91 98234 51092",
+      "state": "Maharashtra",
+      "district": "Jalgaon (जळगाव)",
+      "taluka": "Bhusawal (भुसावळ)",
+      "village": "Varangaon (वरणगाव)",
+      "coordinates": {
+        "latitude": 21.0077,
+        "longitude": 75.5626
+      },
+      "totalLandAcres": 4.5,
+      "soilType": "काळी कसदार / मध्यम काळी (Deep Black Regur Soil)",
+      "irrigationType": "विहीर + ठिबक सिंचन (Well + Drip Irrigation)",
+      "activeCrops": ["कापूस (Cotton)", "सोयाबीन (Soyabean)", "कांदा (Onion)"],
+      "soilHealth": {
+        "organicCarbonPercent": 0.48,
+        "ph": 7.6,
+        "nitrogenKgPerHa": 185,
+        "phosphorusKgPerHa": 14,
+        "potassiumKgPerHa": 320
+      }
+    },
+    {
+      "id": "MH-NSK-10943",
+      "name": "गणेश पांडुरंग शिंदे (Ganesh Shinde)",
+      "phone": "+91 94222 78103",
+      "state": "Maharashtra",
+      "district": "Nashik (नाशिक)",
+      "taluka": "Niphad (निफाड)",
+      "village": "Pimpalgaon (पिंपळगाव)",
+      "coordinates": {
+        "latitude": 20.1742,
+        "longitude": 73.9878
+      },
+      "totalLandAcres": 3.0,
+      "soilType": "मध्यम तांबडी / चिकणमाती (Medium Loamy)",
+      "irrigationType": "कॅनॉल + स्प्रिंकलर (Canal + Sprinkler)",
+      "activeCrops": ["कांदा (Onion)", "द्राक्षे (Grapes)", "टोमॅटो (Tomato)"]
+    }
+  ],
+  "sampleMandiForecasts": [
+    {
+      "crop": "Onion (लाल कांदा)",
+      "mandi": "Lasalgaon (लासलगाव)",
+      "currentModalPrice": 2450,
+      "currency": "INR/Quintal",
+      "sevenDayForecast": [
+        { "day": "+1 Day", "predictedPrice": 2480, "confidence": 0.94, "direction": "up" },
+        { "day": "+2 Days", "predictedPrice": 2520, "confidence": 0.91, "direction": "up" },
+        { "day": "+3 Days", "predictedPrice": 2560, "confidence": 0.89, "direction": "up" },
+        { "day": "+4 Days", "predictedPrice": 2610, "confidence": 0.86, "direction": "up" },
+        { "day": "+5 Days", "predictedPrice": 2650, "confidence": 0.83, "direction": "up" },
+        { "day": "+6 Days", "predictedPrice": 2620, "confidence": 0.80, "direction": "down" },
+        { "day": "+7 Days", "predictedPrice": 2590, "confidence": 0.77, "direction": "down" }
+      ],
+      "recommendation": "Hold stock for 4-5 days; expected 7-8% price surge due to supply deceleration from southern markets."
+    },
+    {
+      "crop": "Cotton (मध्यम लांब धागा कापूस)",
+      "mandi": "Jalgaon APMC (जळगाव कृषी उत्पन्न बाजार समिती)",
+      "currentModalPrice": 7120,
+      "currency": "INR/Quintal",
+      "mspReferencePrice": 7521,
+      "recommendation": "Sell at CCI (Cotton Corporation of India) procurement centers rather than open private mandi to realize full MSP."
+    }
+  ],
+  "sampleCropDiseases": [
+    {
+      "id": "DIS-ONION-PURPLE-BLOTCH",
+      "crop": "Onion",
+      "nameMr": "जांभळा करपा (Purple Blotch)",
+      "pathogen": "Alternaria porri (Fungal)",
+      "symptoms": ["Small water-soaked lesions on leaves", "Purplish brown concentric rings", "Drying of leaf tips"],
+      "biologicalTreatment": "Sour buttermilk spray (500ml/10L) + Copper Oxychloride (2.5g/L) or Trichoderma harzianum (5g/L)",
+      "ipmChemicalFallback": "Difenoconazole 25% EC @ 1ml/L water (PHI: 15 days)"
+    },
+    {
+      "id": "DIS-COTTON-PBW",
+      "crop": "Cotton",
+      "nameMr": "गुलाबी बोंडअळी (Pink Bollworm)",
+      "pathogen": "Pectinophora gossypiella (Lepidopteran Pest)",
+      "symptoms": ["Rosetted flowers", "Premature boll opening", "Inter-locule burrowing in bolls"],
+      "biologicalTreatment": "Trichogramma bactrae egg parasitoid cards (3 cards/acre) + Neem seed kernel extract (NSKE 5%)",
+      "ipmChemicalFallback": "Profenofos 50% EC @ 2ml/L water (PHI: 21 days)"
+    }
+  ],
+  "sampleLegalGuides": [
+    {
+      "id": "LEG-USURY-2014",
+      "statute": "Maharashtra Money-Lending (Regulation) Act, 2014",
+      "section": "Section 31 & Section 39",
+      "maxLegalInterestRateSecured": "9% per annum",
+      "maxLegalInterestRateUnsecured": "12% per annum",
+      "illegalPracticesProhibited": ["Interest exceeding principal amount (Damdupat Rule)", "Retention of 7/12 extract or land mortgage without registrar license", "Coercive harassment"],
+      "helpline": "15100 (National Legal Services Authority - NALSA)",
+      "statutoryDisclaimer": "ही माहिती आहे, कायदेशीर सल्ला नाही. विधी सेवा प्राधिकरणामार्फत मोफत वकील मिळवण्यासाठी टोल-फ्री १५१०० वर संपर्क साधा."
+    }
+  ]
+}
